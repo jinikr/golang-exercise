@@ -1,2 +1,2 @@
 # golang-exercise
-golang 개발자 되기
+golang 연습장
