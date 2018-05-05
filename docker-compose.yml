@@ -1,0 +1,10 @@
+version: '3'
+services:
+  golang-dev:
+    image: golang:1.10.1-stretch
+    container_name: golang-dev
+    working_dir: /var/app
+    volumes:
+      - '.:/var/app'
+    stdin_open: true
+    tty: true
